@@ -15,8 +15,6 @@ exports.sumOfAMultiple = function( n ) {
     }
   }
 
-  console.log(multiplesArray);
-
   for (let i = 0; i < multiplesArray.length; i++) {
     sum += multiplesArray[i];
   }
