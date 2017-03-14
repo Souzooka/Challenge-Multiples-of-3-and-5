@@ -7,16 +7,11 @@ exports.sumOfAMultiple = function( n ) {
 
   // do your work here
   var sum = 0;
-  multiplesArray = [];
 
   for (let i = 0; i < n; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
-      multiplesArray.push(i);
+      sum += i;
     }
-  }
-
-  for (let i = 0; i < multiplesArray.length; i++) {
-    sum += multiplesArray[i];
   }
 
   return sum;
